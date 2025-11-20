@@ -1,0 +1,78 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.env
+.env*/
+.venv
+.venv*/
+ENV/
+env/
+env.bak/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+.jupyter/
+
+# PyCharm / VSCode / other IDEs
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs & temp files
+logs/
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Local settings
+*.local
+*.env.local
+
+# ---------- Project-specific ----------
+# Large data & models (optional – keep if you don’t want to push these)
+data_raw/
+data_processed/
+models/
